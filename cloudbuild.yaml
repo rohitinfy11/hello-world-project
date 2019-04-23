@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/mvn'
   args: ['install']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--tag=gcr.io/hello-world-project-234105/$REPO_NAME:$COMMIT_SHA', '.']
+  args: ['build', '--tag=gcr.io/hello-world-project/$REPO_NAME:$COMMIT_SHA', '.']
   
-images: ['gcr.io/hello-world-project-234105/$REPO_NAME:$COMMIT_SHA']
+images: ['gcr.io/hello-world-project/$REPO_NAME:$COMMIT_SHA']
 
