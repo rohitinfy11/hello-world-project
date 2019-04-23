@@ -1,1 +1,1 @@
-# sb-hello-world
+# hello-world
