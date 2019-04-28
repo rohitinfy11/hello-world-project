@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.g33kzone</groupId>
-	<artifactId>hello-world-project</artifactId>
+	<artifactId>sb-hello-world</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hello-world-project</name>
+	<name>sb-hello-world</name>
 	<description>Demo project for SpringBoot - Hello World</description>
 
 	<properties>
